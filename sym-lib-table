@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name pmod)(type Legacy)(uri ${KIPRJMOD}/kicad-pmod/pmod.lib)(options "")(descr ""))
+  (lib (name qspi_flash)(type Legacy)(uri ${KIPRJMOD}/qspi_flash.lib)(options "")(descr ""))
 )

@@ -1,0 +1,3 @@
+[submodule "kicad-pmod"]
+	path = kicad-pmod
+	url = https://github.com/mithro/kicad-pmod

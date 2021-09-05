@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# pmod_PMOD-Device-x2-Type-Generic-Alt
+#
+DEF pmod_PMOD-Device-x2-Type-Generic-Alt P 0 40 Y N 1 F N
+F0 "P" 100 650 60 H V C CNN
+F1 "pmod_PMOD-Device-x2-Type-Generic-Alt" 90 -40 39 H V C CNN
+F2 "pmod-conn_6x2:pmod_pin_array_6x2" 100 -110 39 H I C CNN
+F3 "" 100 300 60 H V C CNN
+DRAW
+T 0 -160 680 10 0 0 0 "(Pins closest to edge)" Normal 0 C T
+T 0 345 680 10 0 0 0 "(Pins furthest from edge)" Normal 0 C T
+T 0 -160 720 30 0 0 0 "BOTTOM ROW" Normal 0 C T
+T 0 -250 175 20 0 0 0 GND Normal 0 C C
+T 0 450 175 20 0 0 0 GND Normal 0 C C
+T 0 345 720 30 0 0 0 "TOP ROW" Normal 0 C T
+T 0 -250 75 20 0 0 0 VCC Normal 0 C C
+T 0 450 75 20 0 0 0 VCC Normal 0 C C
+S 200 600 0 0 0 1 0 N
+X P1 1 500 550 300 L 60 60 1 1 P I
+X P10 10 -300 250 300 R 60 60 1 1 P I
+X P11 11 -300 150 300 R 60 60 1 1 P I
+X P12 12 -300 50 300 R 60 60 1 1 P I
+X P2 2 500 450 300 L 60 60 1 1 P I
+X P3 3 500 350 300 L 60 60 1 1 P I
+X P4 4 500 250 300 L 60 60 1 1 P I
+X P5 5 500 150 300 L 60 60 1 1 P I
+X P6 6 500 50 300 L 60 60 1 1 P I
+X P7 7 -300 550 300 R 60 60 1 1 P I
+X P8 8 -300 450 300 R 60 60 1 1 P I
+X P9 9 -300 350 300 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+#End Library
